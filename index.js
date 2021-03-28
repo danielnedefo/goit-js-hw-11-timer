@@ -18,7 +18,11 @@ const timer = {
     const data = Date.now('Jul 17, 2019')
     const deltaTime = (somedata - data)
     const {days,hours,mins,secs} = getFullTime(deltaTime)
-    console.log(`${days}:${hours}:${mins}:${secs}`)
+    // console.log(`${days}:${hours}:${mins}:${secs}`)
+    refs.days.innerHTML = `${days}`;
+    refs.hours.innerHTML = `${hours}`;
+    refs.mins.innerHTML = `${mins}`;
+    refs.secs.innerHTML = `${secs}`;
   }, 1000);
  }
 }

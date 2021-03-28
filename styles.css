@@ -1,0 +1,9 @@
+.timer{
+  display: flex;
+  text-align: center;
+  padding-left: 39vw ;
+}
+.field{
+  display: block;
+  margin-right: 10px;
+}
